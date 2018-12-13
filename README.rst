@@ -12,7 +12,7 @@ textarea.
 When write comments you can use @ to put a referente to
 a site user (eg. @jhonsmith)
 
-The product it's use __ https://www.npmjs.com/package/tributejs
+The product it's use https://www.npmjs.com/package/tributejs
 to allow the mention behaviour
 
 
