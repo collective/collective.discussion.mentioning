@@ -31,11 +31,16 @@ Install collective.discussion.mentioning by adding it to your buildout::
 
 and then running ``bin/buildout``
 
-Finally you can install the product in the portal quickinstaller.
-Installing collective.discussion.mentioning will enable comments
-globaly
 
-Then in comment you can mention site users
+Usage
+-----
+
+You can install the product in the portal quickinstaller.
+Installing collective.discussion.mentioning will enable comments
+globaly; then in comment you can mention site users.
+
+This product also register an event that send email notification
+to mentioned people.
 
 
 Dependencies
