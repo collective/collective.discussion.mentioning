@@ -6,33 +6,14 @@
 collective.discussion.mentioning
 ================================
 
-Tell me what your product does
+This product introduce mentions in plone.app.discussion 
+textarea.
 
-Features
---------
+When write comments you can use @ to put a referente to
+a site user (eg. @jhonsmith)
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+The product it's use __ https://www.npmjs.com/package/tributejs
+to allow the mention behaviour
 
 
 Installation
@@ -50,20 +31,41 @@ Install collective.discussion.mentioning by adding it to your buildout::
 
 and then running ``bin/buildout``
 
+Finally you can install the product in the portal quickinstaller.
+Installing collective.discussion.mentioning will enable comments
+globaly
+
+Then in comment you can mention site users
+
+
+Dependencies
+------------
+
+This products has been developed and tested on plone 5.1.4 . 
+Other 5.x versions should works.
+
 
 Contribute
 ----------
 
 - Issue Tracker: https://github.com/collective/collective.discussion.mentioning/issues
 - Source Code: https://github.com/collective/collective.discussion.mentioning
-- Documentation: https://docs.plone.org/foo/bar
 
 
-Support
+TODO
+----
+
+- Add some test
+
+
+Authors
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+This product was developed by RedTurtle Technology team.
+
+.. image:: http://www.redturtle.it/redturtle_banner.png
+   :alt: RedTurtle Technology Site
+   :target: http://www.redturtle.it/
 
 
 License

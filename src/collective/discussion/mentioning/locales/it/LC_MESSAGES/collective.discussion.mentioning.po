@@ -18,7 +18,16 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 msgid "A comment that mentions you has been posted."
-msgstr ""
+msgstr "È stato aggiunto un commento che ti menziona"
 
 msgid "mail_notification_mentioned_user"
 msgstr ""
+"È stato aggiunto un commento che ti menziona alla pagina \"${title}\" che puoi vedere qui: ${link}\n"
+"\n"
+"---\n"
+"${text}\n"
+"---\n"
+
+msgid "comment_description_mentioning"
+msgstr "Puoi menzionare persone utilizzando la @ (es. @mrossi)"
+

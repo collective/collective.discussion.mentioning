@@ -18,4 +18,11 @@
       directory="static"
       />
 
+   <browser:page
+       name="search_for_principals"
+       for="Products.CMFPlone.interfaces.siteroot.IPloneSiteRoot"
+       class=".views.SearchForPrincipals"
+       permission="collective.discussion.mentioning.AskForPrincipals"
+   />
+
 </configure>

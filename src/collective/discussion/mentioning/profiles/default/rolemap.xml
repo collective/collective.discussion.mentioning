@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <rolemap>
   <permissions>
-  <!-- -*- extra stuff goes here -*- -->
+
+    <permission name="collective.discussion.mentioning: Ask for principals" acquire="True">
+      <role name="Authenticated"/>
+    </permission>
 
   </permissions>
 </rolemap>
