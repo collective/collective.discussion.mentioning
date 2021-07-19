@@ -26,6 +26,7 @@ require([
   }
 
   $(document).ready(function(){
+    if ($('#form-widgets-comment-text').length > 0) {
       var tribute = new Tribute({
         menuItemTemplate: function (item) {
           return '<img style="max-width: 20px;" src="'+ item.original.image + '">' + item.string;
@@ -40,6 +41,7 @@ require([
         },
       })
       tribute.attach(document.getElementById('form-widgets-comment-text'));
+    }
   });
 
 });
