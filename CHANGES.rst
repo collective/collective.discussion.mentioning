@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0b1 (unreleased)
+1.0b1 (2021-07-20)
 ------------------
 
 - Fix js to avoid breaking when comments are not available
