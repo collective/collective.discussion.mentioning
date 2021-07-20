@@ -16,7 +16,7 @@ long_description = '\n\n'.join(
 
 setup(
     name='collective.discussion.mentioning',
-    version='1.0b1',
+    version='1.0b2.dev0',
     description="An add-on for Plone plone.app.discussion allow mentioning in comment text area",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
