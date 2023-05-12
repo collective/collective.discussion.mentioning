@@ -66,7 +66,10 @@ def getText(self, targetMimetype=None):
     if text is None:
         return ''
     if isinstance(text, six.text_type):
+        # viene encodata e diventa bytes
         text = text.encode('utf8')
+        # la facciamo tornare stringa
+        text = text.decode('utf8')
     transform = transforms.convertTo(
         targetMimetype,
         text,
